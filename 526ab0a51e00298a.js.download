@@ -1,0 +1,345 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,5353,42127,72568,92973,25513,75095,88691,90370,e=>{"use strict";var t=e.i(18050),a=e.i(5218),s=e.i(71645),r=e.i(20851),l=e.i(22016),o=e.i(45143);e.s(["Navbar",0,({shop:e,pages:n,host:i})=>{let[c,d]=(0,s.useState)(!1);return(0,t.jsxs)(s.default.Fragment,{children:[(0,t.jsx)("header",{className:"flex py-5 mx-auto w-full xl:max-w-[110rem]",children:(0,t.jsxs)("div",{className:"flex justify-between items-center w-full bg-[var(--theme-nav-bg,#F8F8F8)] border-8 border-[var(--theme-nav-border,#EFEFEF)] rounded-2xl ring-1 ring-[var(--theme-card-ring,#DEDEDE)] py-3 px-6",children:[(0,t.jsxs)("div",{className:"flex items-center",children:[(0,t.jsxs)("div",{className:"flex gap-6 lg:gap-8 items-center",children:[(0,t.jsx)("img",{src:(0,a.getShopLogo)(e),alt:"logo",className:"max-w-40 lg:max-w-48 max-h-9 lg:max-h-11 rounded-xl lg:rounded-2xl w-auto shrink-0"}),(0,t.jsxs)("div",{className:"flex flex-col gap-0 leading-3",children:[(0,t.jsx)("p",{className:"font-sf-pro font-extrabold lg:text-2xl bg-gradient-to-b from-[var(--theme-nav-logo-from,#000000)] to-[var(--theme-nav-logo-to,#999999)] bg-clip-text text-transparent from-40%",children:e.name}),(0,t.jsx)("p",{className:"font-sf-pro font-bold text-[12px] nav-subtext",children:"Официальный магазин"})]})]}),(0,t.jsxs)("div",{className:"hidden lg:flex items-center pl-8",children:[(0,t.jsx)("div",{className:"h-6 w-0.5 rounded-full bg-[var(--theme-nav-divider,#AFAFAF)]"}),(0,t.jsx)(l.default,{href:"/",className:"flex gap-4 items-center hover:opacity-80 f-smooth cursor-pointer px-6",children:(0,t.jsx)("p",{className:"font-sf-pro font-black text-[14px] uppercase text-[var(--theme-nav-text,#000000)]",children:"Главная"})}),(0,t.jsx)("div",{className:"h-6 w-0.5 rounded-full bg-[var(--theme-nav-divider,#AFAFAF)]"}),(0,t.jsx)(l.default,{href:"/#shop",className:"flex gap-4 items-center hover:opacity-80 f-smooth cursor-pointer px-6",children:(0,t.jsx)("p",{className:"font-sf-pro font-black text-[14px] uppercase text-[var(--theme-nav-text,#000000)]",children:"Магазин"})}),!n.length&&(0,t.jsx)("div",{className:"h-6 w-0.5 rounded-full bg-[var(--theme-nav-divider,#AFAFAF)]"}),n.map((e,a)=>(0,t.jsxs)("div",{className:"flex",children:[(0,t.jsx)("div",{className:"h-6 w-0.5 rounded-full bg-[var(--theme-nav-divider,#AFAFAF)]"}),(0,t.jsx)(l.default,{href:e.adress,className:"flex gap-4 items-center hover:opacity-80 f-smooth cursor-pointer px-6",children:(0,t.jsx)("p",{className:"font-sf-pro font-black text-[14px] uppercase text-[var(--theme-nav-text,#000000)]",children:e.title})}),n.length-1===a&&(0,t.jsx)("div",{className:"h-6 w-0.5 rounded-full bg-[var(--theme-nav-divider,#AFAFAF)]"})]},e.adress))]})]}),(0,t.jsxs)("div",{className:"flex gap-4 items-center",children:[(0,t.jsxs)("button",{onClick:()=>d(e=>!e),className:"lg:hidden flex flex-col gap-1.5 p-2 cursor-pointer",children:[(0,t.jsx)("span",{className:(0,r.cn)("w-6 h-0.5 bg-[var(--theme-nav-logo-from,#000000)] transition-all duration-300",{"rotate-45 translate-y-2":c})}),(0,t.jsx)("span",{className:(0,r.cn)("w-6 h-0.5 bg-[var(--theme-nav-logo-from,#000000)] transition-all duration-300",{"opacity-0":c})}),(0,t.jsx)("span",{className:(0,r.cn)("w-6 h-0.5 bg-[var(--theme-nav-logo-from,#000000)] transition-all duration-300",{"-rotate-45 -translate-y-2":c})})]}),(0,t.jsxs)("div",{className:"hidden lg:flex gap-6 items-center px-12",children:[e.links.telegram_url&&(0,t.jsx)("a",{href:e.links.telegram_url,target:"_blank",className:"flex p-3 rounded-2xl bg-[#0088cc]/10 hover:bg-[#0088cc] text-[#0088cc] hover:text-white ring-1 ring-[#0088cc] f-smooth cursor-pointer hover:scale-[110%] hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[ic--baseline-telegram] size-5"})}),e.links.discord_url&&(0,t.jsx)("a",{href:e.links.discord_url,target:"_blank",className:"flex p-3 rounded-2xl bg-[#5865f2]/10 hover:bg-[#5865f2] text-[#5865f2] hover:text-white ring-1 ring-[#5865f2] f-smooth cursor-pointer hover:scale-[110%] hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[ic--baseline-discord] size-5"})}),e.links.vk_url&&(0,t.jsx)("a",{href:e.links.vk_url,target:"_blank",className:"flex p-3 rounded-2xl bg-blue-500/10 hover:bg-blue-500 text-blue-500 hover:text-white ring-1 ring-blue-500 f-smooth cursor-pointer hover:scale-[110%] hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[mdi--vk] size-5"})}),e.links.youtube_url&&(0,t.jsx)("a",{href:e.links.youtube_url,target:"_blank",className:"flex p-3 rounded-2xl bg-red-500/10 hover:bg-red-500 text-red-500 hover:text-white ring-1 ring-red-500 f-smooth cursor-pointer hover:scale-[110%] hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[mdi--youtube] size-5"})}),e.links.twitch_url&&(0,t.jsx)("a",{href:e.links.twitch_url,target:"_blank",className:"flex p-3 rounded-2xl bg-[#9146ff]/10 hover:bg-[#9146ff] text-[#9146ff] hover:text-white ring-1 ring-[#9146ff] f-smooth cursor-pointer hover:scale-[110%] hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[mdi--twitch] size-5"})}),e.links.tiktok_url&&(0,t.jsx)("a",{href:e.links.tiktok_url,target:"_blank",className:"flex p-3 rounded-2xl bg-fuchsia-500/10 hover:bg-fuchsia-500 text-fuchsia-500 hover:text-white ring-1 ring-fuchsia-500 f-smooth cursor-pointer hover:scale-[110%] hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[ic--baseline-tiktok] size-5"})})]}),(0,t.jsx)(o.StatusBlock,{shop:e,host:i})]})]})}),c&&(0,t.jsx)("div",{className:"lg:hidden fixed inset-0 top-[100px] z-50 bg-[var(--theme-bg,#F6F6F6)] border-t border-[var(--theme-text,#000000)]/10",children:(0,t.jsxs)("div",{className:"flex flex-col gap-4 p-6 overflow-y-auto max-h-[calc(100vh-80px)]",children:[(0,t.jsx)(o.StatusBlock,{shop:e,host:i}),(0,t.jsx)(l.default,{href:"/",onClick:()=>d(!1),className:"flex gap-4 items-center hover:opacity-80 f-smooth cursor-pointer py-3",children:(0,t.jsx)("p",{className:"font-sf-pro font-black text-[14px] uppercase text-[var(--theme-text,#000000)]",children:"Главная"})}),(0,t.jsx)(l.default,{href:"/#shop",onClick:()=>d(!1),className:"flex gap-4 items-center hover:opacity-80 f-smooth cursor-pointer py-3",children:(0,t.jsx)("p",{className:"font-sf-pro font-black text-[14px] uppercase text-[var(--theme-text,#000000)]",children:"Магазин"})}),n.map(e=>(0,t.jsx)(l.default,{href:`/${e.adress}`,onClick:()=>d(!1),className:"flex gap-4 items-center hover:opacity-80 f-smooth cursor-pointer py-3",children:(0,t.jsx)("p",{className:"font-sf-pro font-black text-[14px] uppercase text-[var(--theme-text,#000000)]",children:e.title})},e.adress)),(0,t.jsxs)("div",{className:"flex gap-4 items-center flex-wrap pt-4 border-t border-[var(--theme-text,#000000)]/10",children:[e.links.telegram_url&&(0,t.jsx)("a",{href:e.links.telegram_url,target:"_blank",className:"social-button flex bg-[var(--theme-card-bg,#ffffff)] p-3 rounded-full hover:bg-[#0088cc] f-smooth cursor-pointer hover:-translate-y-1 hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[ic--baseline-telegram] size-5"})}),e.links.discord_url&&(0,t.jsx)("a",{href:e.links.discord_url,target:"_blank",className:"social-button flex bg-white p-3 rounded-full hover:bg-[#5865f2] f-smooth cursor-pointer hover:-translate-y-1 hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[ic--baseline-discord] size-5"})}),e.links.vk_url&&(0,t.jsx)("a",{href:e.links.vk_url,target:"_blank",className:"social-button flex bg-white p-3 rounded-full hover:bg-blue-500 f-smooth cursor-pointer hover:-translate-y-1 hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[mdi--vk] size-5"})}),e.links.youtube_url&&(0,t.jsx)("a",{href:e.links.youtube_url,target:"_blank",className:"social-button flex bg-white p-3 rounded-full hover:bg-red-500 f-smooth cursor-pointer hover:-translate-y-1 hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[mdi--youtube] size-5"})}),e.links.twitch_url&&(0,t.jsx)("a",{href:e.links.twitch_url,target:"_blank",className:"social-button flex bg-white p-3 rounded-full hover:bg-[#9146ff] f-smooth cursor-pointer hover:-translate-y-1 hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[mdi--twitch] size-5"})}),e.links.tiktok_url&&(0,t.jsx)("a",{href:e.links.tiktok_url,target:"_blank",className:"social-button flex bg-white p-3 rounded-full hover:bg-[#010101] f-smooth cursor-pointer hover:-translate-y-1 hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[ic--baseline-tiktok] size-5"})})]})]})})]})}],5353),e.s(["Footer",0,({shop:e})=>{let a=e.created_at?.getFullYear().toString(),s=new Date().getFullYear().toString();return a=a?a!==s?`${a}—${s}`:a:s,(0,t.jsx)("footer",{className:"flex flex-col gap-2 w-full py-8 justify-center mt-8 px-6 lg:px-20 z-0",children:(0,t.jsxs)("div",{className:"flex flex-col lg:flex-row lg:justify-between ring-1 ring-[var(--theme-card-ring,#DEDEDE)] rounded-3xl p-5 lg:p-8 lg:pr-8",children:[(0,t.jsxs)("div",{className:"flex gap-6 lg:gap-8 items-center",children:[(0,t.jsx)("img",{src:`/api-backend/static/shops/${e.id}/images/${e.images.logo}`,alt:"logo",className:"max-w-40 lg:max-w-48 max-h-9 lg:max-h-11 rounded-xl lg:rounded-2xl w-auto shrink-0"}),(0,t.jsxs)("div",{className:"flex flex-col gap-0 leading-normal lg:leading-3",children:[(0,t.jsx)("p",{className:"font-sf-pro font-extrabold lg:text-2xl bg-gradient-to-b from-[var(--theme-nav-logo-from,#000000)] to-[var(--theme-nav-logo-to,#999999)] bg-clip-text text-transparent from-40%",children:e.name}),(0,t.jsxs)("p",{className:"font-sf-pro font-bold text-[12px] lg:text-[14px] nav-subtext",children:["© ",a,". Все права защищены."]})]})]}),(0,t.jsxs)("div",{className:"flex gap-6 items-center flex-wrap mt-6 lg:mt-0",children:[e.links.telegram_url&&(0,t.jsx)("a",{href:e.links.telegram_url,target:"_blank",className:"flex p-3 rounded-2xl bg-[#0088cc]/10 hover:bg-[#0088cc] text-[#0088cc] hover:text-white ring-1 ring-[#0088cc] f-smooth cursor-pointer hover:scale-[110%] hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[ic--baseline-telegram] size-5"})}),e.links.discord_url&&(0,t.jsx)("a",{href:e.links.discord_url,target:"_blank",className:"flex p-3 rounded-2xl bg-[#5865f2]/10 hover:bg-[#5865f2] text-[#5865f2] hover:text-white ring-1 ring-[#5865f2] f-smooth cursor-pointer hover:scale-[110%] hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[ic--baseline-discord] size-5"})}),e.links.vk_url&&(0,t.jsx)("a",{href:e.links.vk_url,target:"_blank",className:"flex p-3 rounded-2xl bg-blue-500/10 hover:bg-blue-500 text-blue-500 hover:text-white ring-1 ring-blue-500 f-smooth cursor-pointer hover:scale-[110%] hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[mdi--vk] size-5"})}),e.links.youtube_url&&(0,t.jsx)("a",{href:e.links.youtube_url,target:"_blank",className:"flex p-3 rounded-2xl bg-red-500/10 hover:bg-red-500 text-red-500 hover:text-white ring-1 ring-red-500 f-smooth cursor-pointer hover:scale-[110%] hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[mdi--youtube] size-5"})}),e.links.twitch_url&&(0,t.jsx)("a",{href:e.links.twitch_url,target:"_blank",className:"flex p-3 rounded-2xl bg-[#9146ff]/10 hover:bg-[#9146ff] text-[#9146ff] hover:text-white ring-1 ring-[#9146ff] f-smooth cursor-pointer hover:scale-[110%] hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[mdi--twitch] size-5"})}),e.links.tiktok_url&&(0,t.jsx)("a",{href:e.links.tiktok_url,target:"_blank",className:"flex p-3 rounded-2xl bg-fuchsia-500/10 hover:bg-fuchsia-500 text-fuchsia-500 hover:text-white ring-1 ring-fuchsia-500 f-smooth cursor-pointer hover:scale-[110%] hover:shadow-2xl",children:(0,t.jsx)("span",{className:"icon-[ic--baseline-tiktok] size-5"})}),!e.hide_copyright_activated&&(0,t.jsxs)("a",{href:"https://mydonate.io",target:"_blank",className:"f-smooth hover:opacity-60",children:[(0,t.jsx)("img",{src:"/icons/cd-theme-3.svg",className:"footer-icon-light"}),(0,t.jsx)("img",{src:"/icons/cd-theme-3-dark.svg",className:"footer-icon-dark"})]})]})]})})}],42127);let n=`
+body {
+	background-color: var(--theme-bg);
+}
+
+::selection {
+	background: var(--accent-color);
+	color: white;
+}
+
+#main-background {
+	border: none;
+	padding: 0;
+	background: var(--bg-accent-color);
+	border-radius: 32px;
+	position: relative;
+	z-index: 2;
+}
+
+#main-background::before {
+	z-index: -1;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	content: "";
+	background: var(--background-image);
+	background-size: cover;
+	background-position: center;
+	opacity: var(--bg-opacity);
+	border-radius: 32px;
+}
+
+#secondary-background {
+	border: none;
+	padding: 0;
+	background: var(--bg-accent-color);
+	position: relative;
+	z-index: 2;
+}
+
+#secondary-background::before {
+	z-index: -1;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	content: "";
+	background: var(--additional-image);
+	background-size: cover;
+	background-position: center;
+	opacity: var(--bg-opacity);
+}
+
+::-webkit-progress-bar {
+	background-color: #1d1d1d;
+	border-radius: calc(infinity * 1px);
+	height: calc(var(--spacing) * 1);
+}
+
+::-webkit-progress-value {
+	background-color: #3cfd2a;
+	border-radius: calc(infinity * 1px);
+}
+
+.social-button {
+	background: var(--faded-accent-color);
+	color: var(--accent-color);
+}
+
+.social-button:hover {
+	background: var(--accent-color);
+	color: white;
+}
+
+.nav-button {
+	color: var(--theme-nav-button-color);
+}
+
+.nav-button:hover {
+	color: var(--accent-color);
+}
+
+.scrollbar-hidden {
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+	display: none;
+}
+
+@keyframes live-pulse {
+	0%, 100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	50% {
+		opacity: 0.6;
+		transform: scale(1.1);
+	}
+}
+
+.live-pulse {
+	animation: live-pulse 2s ease-in-out infinite;
+}
+
+* {
+	scroll-behavior: smooth;
+}
+
+html {
+	scroll-padding-top: 100px;
+}
+
+.mobile-menu-enter-active,
+.mobile-menu-leave-active {
+	transition: all 0.3s ease;
+}
+
+.mobile-menu-enter-from {
+	opacity: 0;
+	transform: translateY(-20px);
+}
+
+.mobile-menu-leave-to {
+	opacity: 0;
+	transform: translateY(-20px);
+}
+
+.weather-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	pointer-events: none;
+	z-index: 9999;
+	overflow: hidden;
+}
+
+.weather-snow {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.snowflake {
+	position: absolute;
+	top: -50px;
+	color: white;
+	font-size: 1em;
+	font-family: Arial;
+	text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+	animation: snowfall linear infinite;
+	opacity: 0.8;
+}
+
+.snowflake::before {
+	content: "❄";
+}
+
+@keyframes snowfall {
+	0% {
+		transform: translateY(0) rotate(0deg);
+	opacity: 0.8;
+}
+	100% {
+		transform: translateY(calc(100vh + 50px)) rotate(360deg);
+	opacity: 0;
+}
+}
+
+.weather-leaves {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.leaf {
+	position: absolute;
+	top: -50px;
+	width: 20px;
+	height: 20px;
+	background: linear-gradient(135deg, #d2691e 0%, #cd853f 50%, #8b4513 100%);
+	border-radius: 0 100% 0 100%;
+	transform: rotate(45deg);
+	animation: leaf-fall linear infinite;
+	opacity: 0.8;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.leaf::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 2px;
+	height: 8px;
+	background: #654321;
+	transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+@keyframes leaf-fall {
+	0% {
+		transform: translateY(-50px) translateX(0) rotate(45deg);
+	opacity: 0.8;
+}
+	100% {
+		transform: translateY(calc(100vh + 50px)) translateX(50px) rotate(225deg);
+	opacity: 0;
+}
+}
+
+.weather-rain {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.raindrop {
+	position: absolute;
+	top: -50px;
+	width: 2px;
+	height: 20px;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+	animation: rain-fall linear infinite;
+}
+
+@keyframes rain-fall {
+	0% {
+		transform: translateY(0);
+		opacity: 0.6;
+	}
+	100% {
+		transform: translateY(calc(100vh + 50px));
+	opacity: 0;
+}
+}
+
+.footer-icon-light {
+	display: var(--footer-icon-light-display, block);
+}
+
+.footer-icon-dark {
+	display: var(--footer-icon-dark-display, none);
+}
+`;e.s(["default",0,n],72568);let i=`
+:root {
+    --theme-bg: #f6f6f6;
+    --theme-text: #000000;
+    --theme-card-bg: #EFEFEF;
+    --theme-card-ring: #DEDEDE;
+    --theme-divider: #E8E8E8;
+    --theme-muted-text: #8D8D8D;
+    --theme-nav-bg: #F8F8F8;
+    --theme-nav-border: #EFEFEF;
+    --theme-nav-divider: #AFAFAF;
+    --theme-nav-text: #000000;
+    --theme-input-bg: #FDFDFD;
+    --theme-input-placeholder: #5B5959;
+    --theme-server-card-bg: #ffffff;
+    --theme-server-card-ring: #DEDEDE;
+    --theme-active-bg: #1E1E1E;
+    --theme-active-text: #ffffff;
+    --theme-price-box-bg: #ffffff;
+    --theme-online-bg: #ffffff;
+    --theme-online-label: #000000;
+    --theme-online-text: #000000;
+    --theme-online-divider: #000000;
+    --theme-online-max: #000000;
+    --theme-sale-price: #000000;
+    --theme-payment-selected-bg: #ffffff;
+    --theme-payment-unselected-bg: #ffffff;
+    --theme-payment-text: #2F2F2F;
+    --theme-payment-subtext: #5E5E5E;
+    --theme-nav-logo-from: #000000;
+    --theme-nav-logo-to: #999999;
+    --theme-nav-subtext: #000000;
+    --footer-icon-light-display: block;
+    --footer-icon-dark-display: none;
+}
+
+.nav-subtext {
+    color: var(--theme-nav-subtext);
+}
+`,c=`
+:root {
+    --theme-bg: #070707;
+    --theme-text: #ffffff;
+    --theme-card-bg: #080808;
+    --theme-card-ring: #27272A;
+    --theme-divider: #1B1F21;
+    --theme-muted-text: #8D8D8D;
+    --theme-nav-bg: #121212;
+    --theme-nav-border: #080808;
+    --theme-nav-divider: #1B1B1B;
+    --theme-nav-text: #CECECE;
+    --theme-input-bg: #0E0E0E;
+    --theme-input-placeholder: #414141;
+    --theme-server-card-bg: #121212;
+    --theme-server-card-ring: #27272A;
+    --theme-active-bg: #121212;
+    --theme-active-text: #ffffff;
+    --theme-sidebar-bg: #121212;
+    --theme-sidebar-text: #DEDEDE;
+    --theme-online-green: #85FF1B;
+    --theme-online-bg: #060606;
+    --theme-online-label: #85FF1B;
+    --theme-online-text: #ffffff;
+    --theme-online-divider: #3A3A3A;
+    --theme-online-max: #939393;
+    --theme-progress-bg: #5b5b5b;
+    --theme-progress-value: #3cfd2a;
+    --theme-price-box-bg: #121212;
+    --theme-sale-price: #ffffff;
+    --theme-payment-selected-bg: #0E0E0E;
+    --theme-payment-unselected-bg: #5050501A;
+    --theme-payment-text: #E2E2E2;
+    --theme-payment-subtext: #929292;
+    --theme-nav-logo-from: #ffffff;
+    --theme-nav-logo-to: #999999;
+    --footer-icon-light-display: none;
+    --footer-icon-dark-display: block;
+}
+
+.nav-subtext {
+    background: linear-gradient(to bottom, var(--theme-nav-logo-from) 40%, var(--theme-nav-logo-to));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+`;e.s(["darkColors",0,c,"lightColors",0,i],92973);var d=e.i(83599),m=e.i(81949),x=e.i(1558);e.s(["LastPurchasesBlock",0,({shop:e})=>{let{data:a,error:r,isLoading:l}=(0,d.default)(`/api-backend/shops/${e.id}/last-purchases`,async e=>m.default.get(e).then(e=>e.data),{refreshInterval:5e3}),o=(0,s.useRef)(null),n=(0,s.useRef)(!1),i=(0,s.useRef)(0),c=(0,s.useRef)(0);function h(){n.current=!1,o.current&&(o.current.style.cursor="grab")}return!!a?.length&&(0,t.jsxs)("div",{className:"flex gap-8 bg-[var(--theme-card-bg,#EFEFEF)] ring-1 ring-[var(--theme-card-ring,#DEDEDE)] w-full py-6 px-8 mt-8 rounded-2xl relative select-none",children:[(0,t.jsxs)("div",{className:"flex flex-col items-center justify-center gap-1 shrink-0 self-center",children:[(0,t.jsx)("img",{src:"/icons/online-red.svg",className:"size-6 live-pulse"}),(0,t.jsx)("p",{className:"font-sf-pro font-extrabold text-[#FF1B1B] text-lg",children:"Live"})]}),(0,t.jsx)("div",{ref:o,onMouseDown:function(e){o.current&&(n.current=!0,i.current=e.pageX-o.current.offsetLeft,c.current=o.current.scrollLeft,o.current.style.cursor="grabbing")},onMouseLeave:h,onMouseUp:h,onMouseMove:function(e){if(!n.current||!o.current)return;e.preventDefault();let t=(e.pageX-o.current.offsetLeft-i.current)*2;o.current.scrollLeft=c.current-t},className:"flex gap-5 items-center overflow-x-auto scroll-smooth scrollbar-hidden cursor-grab active:cursor-grabbing",children:a.filter(e=>null!==e.product).map(a=>(0,t.jsxs)("div",{className:"flex flex-col items-center gap-1 shrink-0",children:[(0,t.jsxs)("div",{className:"bg-[var(--theme-input-bg,#FDFDFD)] pt-5 pb-3 mb-1 w-40 rounded-3xl flex flex-col gap-3 items-center justify-center pointer-events-none",children:[a.product.image?(0,t.jsx)("img",{src:`/api-backend/static/shops/${e.id}/products/${a.product.image}`,className:"size-19 object-cover rounded-2xl"}):(0,t.jsx)("div",{className:"size-19 bg-[var(--theme-input-bg,#FDFDFD)] flex items-center justify-center rounded-3xl",children:(0,t.jsx)("span",{className:"icon-[tabler--photo-off] size-6 text-[var(--theme-text,#000000)]/30"})}),(0,t.jsx)("div",{className:"flex flex-col items-center",children:(0,t.jsx)("p",{className:"font-sf-pro font-medium text-[var(--theme-text,#000000)]/70 text-[15px] text-left",children:a.nickname})})]}),(0,t.jsx)("p",{className:"font-sf-pro font-medium text-[var(--theme-muted-text,#3B3B3B)] text-[14px] pointer-events-none",children:x.getTimeAgo.format(new Date(a.created_at))})]},a.id))})]})}],25513);let h=({rounded:e,errorMessage:a,...s})=>(0,t.jsxs)("div",{className:"flex flex-col gap-2 w-full",children:[(0,t.jsx)("div",{className:"flex relative",children:(0,t.jsx)("input",{className:(0,r.cn)("bg-[var(--theme-input-bg,#FDFDFD)] placeholder:text-[var(--theme-input-placeholder,#5B5959)] font-sf-pro font-semibold text-[var(--theme-text,#000000)] py-4 px-6 text-lg f-smooth w-full",e,{"ring-white/40 focus:ring-1":!a,"ring-1 ring-red-400":a}),...s})}),a&&(0,t.jsx)("p",{className:"font-sf-pro font-medium text-[14px] text-red-400 text-sm text-left",children:a})]});e.s(["ModalInput",0,h,"SidebarButton",0,({activated:e,icon:a,filledIcon:s,label:l,...o})=>(0,t.jsxs)("button",{disabled:e,className:(0,r.cn)("flex gap-4 items-center px-6 py-3.5 rounded-2xl f-smooth bg-[var(--theme-sidebar-bg,white)] relative group",{"cursor-pointer":!e,"cursor-not-allowed":e}),...o,children:[(0,t.jsxs)("div",{className:"flex gap-3 items-center",children:[a&&(0,t.jsx)("span",{className:(0,r.cn)("size-5 text-[var(--theme-sidebar-text,#242424)] f-smooth absolute left-5",a,{"opacity-100":!e,"opacity-0":e})}),s&&(0,t.jsx)("span",{className:(0,r.cn)("size-5 text-[var(--theme-sidebar-text,#242424)] f-smooth absolute left-5",s,{"opacity-100":e,"opacity-0":!e})}),(0,t.jsx)("p",{className:(0,r.cn)("text-base lg:text-[18px] font-sf-pro font-medium text-[var(--theme-sidebar-text,#242424)]",{"pl-7":a,"pl-0":!a}),children:l})]}),(0,t.jsx)("span",{className:(0,r.cn)("icon-[tabler--circle-arrow-right-filled] size-5 text-[var(--theme-sidebar-text,#242424)] f-smooth absolute right-5",{"opacity-0 group-hover:opacity-100":!e,"opacity-0":e})}),(0,t.jsx)("span",{className:(0,r.cn)("icon-[tabler--circle-check-filled] size-5 text-[var(--theme-sidebar-text,#242424)] f-smooth absolute right-5",{"opacity-100":e,"opacity-0":!e})})]})],75095);var f=e.i(30374);e.i(56455);var p=e.i(4651),u=e.i(94706),g=e.i(46696),b=e.i(91476),v=e.i(4290),j=e.i(56624),N=e.i(99937);let y=u.default.object({email:u.default.email("Укажите верную почту"),username:u.default.string("Укажите никнейм").min(2,"Не похоже, что это никнейм. Минимальная длина — 2 символа").max(16,"Не похоже, что это никнейм. Максимальная длина — 16 символов"),promocode:u.default.string().max(32,"Максимальная длина купона — 32 символа").optional()}),k=({product:e,massSales:a,shop:l,selectedServer:o,hideBuyButton:n,onBuyClick:i,initialModalOpen:c,onModalClose:d,dialogOnly:x})=>{let[{state:k}]=(0,j.useCookies)(["state"]),[w,E]=(0,s.useState)(),[F,D]=(0,s.useState)({state:{success:!1,error:!1,updating:!1}}),[_,z]=(0,s.useState)({state:{loading:!1,modal:!1,modalStep:"setup",updating:!1,accepted:!0},constants:{unitPrice:e.price/e.amount},data:{sum:e.price.toString(),amount:e.amount.toString(),promocode:"",username:"",email:"",payment_method:"tkassa",honeypot:""}}),A=(0,s.useMemo)(()=>{let e=y.safeParse({email:_.data.email,username:_.data.username,promocode:_.data.promocode});return e.success?{}:u.default.flattenError(e.error).fieldErrors},[_.data.email,_.data.username,_.data.promocode]),C=async t=>{if(!F.state.updating){if(!t){E(void 0),D({state:{success:!1,error:!1,updating:!1}});return}D({state:{success:!1,error:!1,updating:!0}});try{let{data:a}=await m.default.get(`/api-backend/shops/${e.shop_id}/promocodes/public/${t}?product_id=${e.id}`);D({state:{success:!0,error:!1,updating:!1}}),E(a)}catch(e){D({state:{success:!1,error:!0,updating:!1}}),e instanceof b.AxiosError&&(g.toast.error(e.response?.data.local_message,{className:p.unbounded.className,style:{background:"white",color:"black",border:"rgba(0,0,0,0.25) 1px solid"}}),E(void 0))}}};(0,s.useEffect)(()=>{let e=_.data.promocode;if(!e){E(void 0),D({state:{success:!1,error:!1,updating:!1}});return}let t=setTimeout(()=>{C(e)},500);return()=>clearTimeout(t)},[_.data.promocode]),(0,s.useEffect)(()=>{c&&z(e=>({...e,state:{...e.state,modal:!0}}))},[c]);let S=()=>{let t=Math.max(1,parseInt(_.data.amount)||1),a=Math.ceil(t/e.amount);z(s=>({...s,data:{...s.data,amount:String(t),sum:String(a*e.price)}}))},B=()=>{let t=Math.floor(Math.max(e.price,parseInt(_.data.sum)||e.price)/e.price);z(a=>({...a,data:{...a.data,sum:String(t*e.price),amount:String(t*e.amount)}}))},M=async()=>{if(!_.state.loading){z(e=>({...e,state:{...e.state,loading:!0}}));try{let t=await (0,N.solveChallenge)(k),{data:{url:a}}=await m.default.post(`/api-backend/shops/${e.shop_id}/products/${e.id}/purchase`,{nickname:_.data.username,email:_.data.email,amount:parseInt(_.data.amount),promocode:_.data.promocode,server_id:o,payment_method:_.data.payment_method,mass_sale_id:$?.id,solution:t,honeypot:_.data.honeypot});window.location.href=a}catch(t){z(e=>({...e,state:{...e.state,loading:!1}}));let e="Произошла ошибка при обработке запроса. Пожалуйста, попробуйте еще раз.";if(t instanceof b.AxiosError){let a=t.response?.data,s=t.response?.status,r=a?.code;a?.local_message?e=a.local_message:401===s||-1===r?e="Наша система защиты обнаружила подозрительную активность. Пожалуйста, обновите страницу и попробуйте снова.":a?.message&&(e=a.message)}g.toast.error(e,{className:p.unbounded.className,style:{background:"white",color:"black",border:"rgba(0,0,0,0.25) 1px solid"}})}}},$=(0,s.useMemo)(()=>{let t=a.find(t=>t.products.some(t=>t.id===e.id));return!t||t.starts_at&&new Date(t.starts_at)>new Date||t.expires_at&&new Date(t.expires_at)<new Date?null:t},[a,e.id]),I=(0,s.useMemo)(()=>{let t=e.price,a=parseInt(_.data.amount),s=w?w.discount_percent/100:0,r=$?$.discount_percent/100:0;if("item"===e.type){let e=t*a;return r&&(e-=e*r),s&&(e-=e*s),Number(e)}if("currency"===e.type){let t,a=isNaN(t=Math.ceil(parseInt(_.data.amount)/e.amount)*e.price)?0:t;return r&&(a-=a*r),s&&(a-=a*s),Number(a)}if("case"===e.type){let e=t*a;return r&&(e-=e*r),s&&(e-=e*s),Number(e)}{let e=t;return r&&(e-=e*r),s&&(e-=e*s),Number(e)}},[e.price,_.data.amount,$,e.type,w]),L=(0,s.useMemo)(()=>{let e=new v.default(I),t=new v.default(l.max_comission_percent).div(100),a=new v.default(l.comission_share).div(100),s=e.mul(t),r=s.mul(a);return s.minus(r)},[I,l.max_comission_percent,l.comission_share]),T=({hideBuyButton:a,onBuyClick:s})=>(0,t.jsxs)("div",{className:"flex flex-col bg-[var(--theme-card-bg,#EFEFEF)] p-5 ring-1 ring-[var(--theme-card-ring,#DEDEDE)] rounded-3xl overflow-hidden h-full",children:[(0,t.jsxs)("div",{className:"relative h-56 w-full",children:[e.image?(0,t.jsx)("img",{src:`/api-backend/static/shops/${e.shop_id}/products/${e.image}`,className:"h-full w-full rounded-3xl object-cover"}):(0,t.jsx)("div",{className:"flex h-full w-full items-center justify-center rounded-3xl bg-[var(--theme-card-bg,#EFEFEF)]",children:(0,t.jsx)("span",{className:"icon-[tabler--photo-off] size-8 text-[var(--theme-text,#000000)]/40"})}),$&&(0,t.jsx)("div",{className:"absolute left-4 top-4 flex items-center gap-2 rounded-full bg-black/80 px-3 py-1 text-white backdrop-blur",children:(0,t.jsxs)("span",{className:"font-sf-pro font-semibold text-[12px]",children:["-",$.discount_percent,"%"]})}),$&&(0,t.jsxs)("div",{className:"absolute right-4 top-4 flex max-w-[120px] items-center gap-1.5 rounded-full bg-white px-3 py-1 text-[#1E1E1E] shadow-sm",children:[(0,t.jsx)("span",{className:"icon-[tabler--flame] size-3.5 text-[#FF6B00] flex-shrink-0"}),(0,t.jsx)("span",{className:"font-sf-pro font-semibold text-[12px] uppercase tracking-wide text-center leading-tight whitespace-normal break-words",children:$.name})]})]}),(0,t.jsxs)("div",{className:"flex flex-col gap-2 items-start text-left mt-4 flex-1",children:[(0,t.jsxs)("div",{className:"flex flex-col",children:[(0,t.jsx)("p",{className:"font-sf-pro font-extrabold text-[var(--theme-text,#000000)] text-2xl",children:e.name}),(0,t.jsxs)("p",{className:"font-sf-pro font-medium text-[var(--theme-muted-text,#323232)] text-[15px]",children:[e.amount," шт."]})]}),(0,t.jsxs)("div",{className:"flex bg-[var(--theme-price-box-bg,#ffffff)] w-full rounded-full items-center justify-between mt-auto",children:[(0,t.jsx)("div",{className:"flex gap-3 items-center text-center justify-center mx-3",children:$?(0,t.jsxs)("div",{className:"flex flex-col leading-2 items-center",children:[(0,t.jsxs)("p",{className:"font-sf-pro font-extrabold line-through text-[var(--theme-sale-price,#000000)]/50 text-[12px]",children:[e.price.toLocaleString(),"₽"]}),(0,t.jsxs)("p",{className:"font-sf-pro font-semibold text-[var(--theme-text,#222222)] text-lg",children:[Number((e.price-e.price*($.discount_percent/100)).toFixed(1)).toLocaleString(),"₽"]})]}):(0,t.jsxs)("p",{className:"font-sf-pro font-semibold text-[var(--theme-text,#222222)] text-lg",children:[e.price.toLocaleString(),"₽"]})}),!a&&(s?(0,t.jsx)("button",{type:"button",onClick:()=>s(e),className:"bg-[var(--accent-color)] flex py-2.5 px-5 rounded-full hover:opacity-90 ml-0 m-1 cursor-pointer flex-1 items-center text-center justify-center",children:(0,t.jsx)("p",{className:"font-sf-pro font-semibold text-[18px] text-white",children:"Купить"})}):(0,t.jsx)(f.DialogTrigger,{asChild:!0,children:(0,t.jsx)("button",{className:"bg-[var(--accent-color)] flex py-2.5 px-5 rounded-full hover:opacity-90 ml-0 m-1 cursor-pointer flex-1 items-center text-center justify-center",children:(0,t.jsx)("p",{className:"font-sf-pro font-semibold text-[18px] text-white",children:"Купить"})})}))]})]})]});return n&&!x?(0,t.jsx)(T,{hideBuyButton:!0}):(0,t.jsxs)(f.Dialog,{open:_.state.modal,onOpenChange:e=>{z(t=>({...t,state:{...t.state,modal:e,modalStep:e?t.state.modalStep:"setup"}})),e||d?.()},children:[!x&&(0,t.jsx)(T,{onBuyClick:i}),(0,t.jsxs)(f.DialogContent,{className:"w-[90%] !max-w-5xl max-h-screen overflow-scroll bg-[var(--theme-active-bg)] border-0 p-0 rounded-2xl ring-1 ring-[var(--theme-card-ring,#DEDEDE)]",children:[(0,t.jsx)(f.DialogTitle,{className:"sr-only",children:"Покупка товара"}),"setup"===_.state.modalStep&&(0,t.jsx)("div",{children:(0,t.jsxs)("div",{className:"inner text-center bg-[var(--theme-card-bg,#EFEFEF)] grid m-auto p-8 lg:p-10 rounded-2xl lg:my-0 ring-1 ring-[var(--theme-card-ring,#DEDEDE)]",children:[(0,t.jsx)("div",{className:"flex justify-between items-center",children:(0,t.jsx)("h1",{className:"font-sf-pro font-extrabold text-[var(--theme-text,#171717)] text-xl lg:text-2xl",children:"Покупка товара"})}),(0,t.jsxs)("div",{className:"flex flex-col gap-6 items-start justify-start",children:[(0,t.jsxs)("div",{className:"flex flex-col gap-4 w-full",children:[(0,t.jsxs)("div",{className:"flex gap-4 items-center mt-6",children:[(0,t.jsx)("div",{children:e.image?(0,t.jsx)("img",{src:`/api-backend/static/shops/${e.shop_id}/products/${e.image}`,className:"size-20 object-cover rounded-3xl"}):(0,t.jsx)("div",{className:"size-20 bg-[var(--theme-input-bg,#FDFDFD)] flex items-center justify-center rounded-3xl",children:(0,t.jsx)("span",{className:"icon-[tabler--photo-off] size-6 text-[var(--theme-text,#000000)]/30"})})}),(0,t.jsxs)("div",{className:"flex flex-col items-start",children:[(0,t.jsx)("p",{className:"font-sf-pro font-extrabold text-[var(--theme-text,#171717)] text-2xl",children:e.name}),(0,t.jsxs)("p",{className:"font-sf-pro font-medium text-[var(--theme-muted-text,#5B5959)] text-[15px]",children:[e.amount," шт."]})]})]}),(0,t.jsx)("p",{className:"font-sf-pro font-medium text-[var(--theme-muted-text,#5B5959)] text-[15px] text-left whitespace-pre-line break-all",children:e.description}),"item"===e.type&&(0,t.jsxs)("div",{className:"flex gap-4 items-center justify-between w-full mt-2",children:[(0,t.jsx)("button",{onClick:()=>z(t=>({...t,data:{...t.data,amount:Math.max(e.amount,parseInt(t.data.amount)-e.amount).toString()}})),className:"flex bg-[#FDFDFD] ring-1 ring-[#3A3A3A] p-3 rounded-2xl hover:brightness-125 cursor-pointer f-smooth",children:(0,t.jsx)("span",{className:"icon-[tabler--minus] size-5 text-black"})}),(0,t.jsxs)("p",{className:"font-sf-pro font-semibold text-[var(--theme-text,#171717)]  text-[14px]",children:[_.data.amount," шт."]}),(0,t.jsx)("button",{onClick:()=>z(t=>({...t,data:{...t.data,amount:(e.amount+parseInt(t.data.amount)).toString()}})),className:"flex bg-[#FDFDFD] ring-1 ring-[#3A3A3A] p-3 rounded-2xl hover:brightness-125 cursor-pointer f-smooth",children:(0,t.jsx)("span",{className:"icon-[tabler--plus] size-5 text-black"})})]}),"case"===e.type&&(0,t.jsxs)("div",{className:"flex gap-4 items-center justify-between w-full mt-2",children:[(0,t.jsx)("button",{onClick:()=>z(e=>({...e,data:{...e.data,amount:Math.max(1,parseInt(e.data.amount)-1).toString()}})),className:"flex bg-[#FDFDFD] ring-1 ring-[#3A3A3A] p-3 rounded-2xl hover:brightness-125 cursor-pointer f-smooth",children:(0,t.jsx)("span",{className:"icon-[tabler--minus] size-5 text-black"})}),(0,t.jsxs)("p",{className:"font-sf-pro font-semibold text-[var(--theme-text,#171717)] text-[14px]",children:[_.data.amount," шт."]}),(0,t.jsx)("button",{onClick:()=>z(e=>({...e,data:{...e.data,amount:(parseInt(e.data.amount)+1).toString()}})),className:"flex bg-[#FDFDFD] ring-1 ring-[#3A3A3A] p-3 rounded-2xl hover:brightness-125 cursor-pointer f-smooth",children:(0,t.jsx)("span",{className:"icon-[tabler--plus] size-5 text-black"})})]}),"currency"===e.type&&(0,t.jsxs)("div",{className:"flex gap-4 items-center justify-between w-full mt-2",children:[(0,t.jsxs)("div",{className:"flex relative",children:[(0,t.jsx)("input",{onBlur:B,onKeyUp:e=>"enter"===e.key&&B(),value:_.data.sum,onChange:t=>{let a=t.target.value,s=Math.floor(Math.max(e.price,parseInt(a)||e.price)/e.price);z(t=>({...t,data:{...t.data,sum:a,amount:String(s*e.amount)}}))},type:"number",placeholder:"Введите сумму",className:"bg-[var(--theme-input-bg,#FDFDFD)] placeholder:text-[var(--theme-input-placeholder,#5B5959)] font-sf-pro font-semibold text-[var(--theme-text,#000000)] py-4 px-6 rounded-tr-3xl rounded-tl-3xl rounded-br-3xl rounded-bl-3xl text-lg focus:ring-1 f-smooth ring-white/40"}),(0,t.jsx)("p",{className:"absolute right-6 top-4 font-sf-pro text-[18px] font-semibold text-[var(--theme-text,#000000)]/50",children:"₽"})]}),(0,t.jsxs)("div",{className:"flex relative",children:[(0,t.jsx)("input",{onBlur:S,onKeyUp:e=>"enter"===e.key&&S(),value:_.data.amount,onChange:t=>{let a=t.target.value,s=Math.ceil(Math.max(1,parseInt(a)||1)/e.amount);z(t=>({...t,data:{...t.data,amount:a,sum:String(s*e.price)}}))},type:"number",placeholder:"Введите количество",className:"bg-[var(--theme-input-bg,#FDFDFD)] placeholder:text-[var(--theme-input-placeholder,#5B5959)] font-sf-pro font-semibold text-[var(--theme-text,#000000)] py-4 px-6 rounded-tr-3xl rounded-tl-3xl rounded-br-3xl rounded-bl-3xl text-lg focus:ring-1 f-smooth ring-white/40"}),(0,t.jsx)("p",{className:"absolute right-6 top-4 font-sf-pro font-semibold text-[18px] text-[var(--theme-text,#000000)]/50",children:"шт."})]})]})]}),(0,t.jsx)("div",{className:"w-full h-0.5 rounded-full bg-[var(--theme-divider,#E8E8E8)]"}),(0,t.jsx)("div",{className:"flex flex-col gap-4 w-full",children:(0,t.jsxs)("div",{className:"flex flex-col gap-4",children:[(0,t.jsx)(h,{value:_.data.username,onChange:e=>z(t=>({...t,data:{...t.data,username:e.target.value}})),errorMessage:_.data.username&&A.username?.[0],type:"text",placeholder:"Введите никнейм",name:"username",rounded:"rounded-tr-3xl rounded-tl-3xl rounded-br-xl rounded-bl-xl"}),(0,t.jsx)(h,{value:_.data.email,onChange:e=>z(t=>({...t,data:{...t.data,email:e.target.value}})),errorMessage:_.data.email&&A.email?.[0],type:"email",placeholder:"Введите почту",name:"email",rounded:"rounded-tr-xl rounded-tl-xl rounded-br-xl rounded-bl-xl"}),(0,t.jsx)("input",{value:_.data.honeypot,onChange:e=>z(t=>({...t,data:{...t.data,honeypot:e.target.value}})),type:"text",name:"website",autoComplete:"off",tabIndex:-1,style:{position:"absolute",left:"-9999px",width:"1px",height:"1px"}}),(0,t.jsxs)("div",{className:"flex gap-4 items-center w-full",children:[(0,t.jsx)(h,{value:_.data.promocode,onChange:e=>z(t=>({...t,data:{...t.data,promocode:e.target.value}})),errorMessage:_.data.promocode&&A.promocode?.[0],type:"text",placeholder:"Укажите купон, если есть",name:"promocode",rounded:"rounded-tr-xl rounded-tl-xl rounded-br-3xl rounded-bl-3xl"}),F.state.updating&&(0,t.jsx)("span",{className:"icon-[tabler--loader] size-5 text-black animate-spin"}),F.state.error&&(0,t.jsx)("span",{className:"icon-[tabler--circle-x] text-red-500 size-5"}),F.state.success&&(0,t.jsx)("span",{className:"icon-[tabler--circle-check] text-green-500e size-5"}),!(F.state.updating||F.state.error||F.state.success)&&(0,t.jsx)("span",{className:"icon-[tabler--dots] text-neutral-600 size-5"})]}),(0,t.jsx)("button",{type:"submit",disabled:!!(_.state.loading||Object.keys(A).length||!_.state.accepted),className:(0,r.cn)("flex gap-3 items-center bg-[var(--accent-color)] px-6 py-4 rounded-3xl f-smooth w-full lg:w-auto justify-center mt-2",{"opacity-60 cursor-not-allowed":_.state.loading||Object.keys(A).length||!_.state.accepted,"hover:opacity-80 cursor-pointer":!_.state.loading&&!Object.keys(A).length&&_.state.accepted}),onClick:()=>{z(e=>({...e,state:{...e.state,modalStep:"buy"}}))},children:(0,t.jsx)("p",{className:"font-sf-pro font-semibold text-white text-[18px] text-center",children:"Продолжить"})}),(0,t.jsxs)("p",{className:"font-sf-pro font-medium text-[var(--theme-muted-text,#8D8D8D)] text-[12px] text-center",children:['Нажимая кнопку "Оплатить" вы автоматически соглашетесь с условиями ',(0,t.jsx)("br",{}),(0,t.jsx)("a",{href:"https://mydonate.io/agreement",target:"_blank",className:"underline hover:brightness-125 f-smooth text-[var(--accent-color)]",children:"пользовательского соглашения"}),",",(0,t.jsx)("a",{href:"https://mydonate.io/agency",target:"_blank",className:"underline hover:brightness-125 f-smooth text-[var(--accent-color)]",children:"агентского договора"}),", и"," ",(0,t.jsx)("a",{href:"https://mydonate.io/donation-offer",target:"_blank",className:"underline hover:brightness-125 f-smooth text-[var(--accent-color)]",children:"договора пожертвования"})]})]})})]})]})}),"buy"===_.state.modalStep&&(0,t.jsx)("div",{children:(0,t.jsxs)("div",{className:"inner text-center bg-[var(--theme-card-bg,#EFEFEF)] grid m-auto p-8 lg:p-10 rounded-2xl ring-1 ring-[var(--theme-card-ring,#DEDEDE)]",children:[(0,t.jsx)("div",{className:"flex justify-between items-center",children:(0,t.jsx)("h1",{className:"font-sf-pro font-extrabold text-[var(--theme-text,#171717)] text-xl lg:text-2xl",children:"Выберите метод оплаты"})}),(0,t.jsxs)("div",{className:"flex flex-col gap-6 items-start justify-start",children:[(0,t.jsxs)("div",{className:"flex flex-col gap-4 w-full",children:[(0,t.jsxs)("div",{className:"flex gap-4 items-center mt-6",children:[(0,t.jsx)("div",{children:e.image?(0,t.jsx)("img",{src:`/api-backend/static/shops/${e.shop_id}/products/${e.image}`,className:"size-20 object-cover rounded-3xl"}):(0,t.jsx)("div",{className:"size-20 bg-[var(--theme-card-bg,#121212)] flex items-center justify-center rounded-3xl",children:(0,t.jsx)("span",{className:"icon-[tabler--photo-off] size-6 text-[var(--theme-text,#ffffff)]/30"})})}),(0,t.jsxs)("div",{className:"flex flex-col items-start",children:[(0,t.jsx)("p",{className:"font-sf-pro font-extrabold text-[var(--theme-text,#171717)] text-2xl",children:e.name}),(0,t.jsxs)("p",{className:"font-sf-pro font-medium text-[var(--theme-muted-text,#5B5959)] text-[15px]",children:[e.amount," шт."]})]}),(0,t.jsx)("p",{className:"font-sf-pro font-medium text-[var(--theme-muted-text,#8D8D8D)] text-[15px] text-left whitespace-pre-line break-all",children:e.description})]}),"item"===e.type&&(0,t.jsxs)("div",{className:"flex gap-4 items-center justify-between w-full mt-2",children:[(0,t.jsx)("button",{onClick:()=>z(t=>({...t,data:{...t.data,amount:Math.max(e.amount,parseInt(t.data.amount)-e.amount).toString()}})),className:"flex bg-[#FDFDFD] ring-1 ring-[#3A3A3A] p-3 rounded-2xl hover:brightness-125 cursor-pointer f-smooth",children:(0,t.jsx)("span",{className:"icon-[tabler--minus] size-5 text-black"})}),(0,t.jsxs)("p",{className:"font-sf-pro font-semibold text-[var(--theme-text,#171717)] text-[14px]",children:[_.data.amount," шт."]}),(0,t.jsx)("button",{onClick:()=>z(t=>({...t,data:{...t.data,amount:(e.amount+parseInt(t.data.amount)).toString()}})),className:"flex bg-[#FDFDFD] ring-1 ring-[#3A3A3A] p-3 rounded-2xl hover:brightness-125 cursor-pointer f-smooth",children:(0,t.jsx)("span",{className:"icon-[tabler--plus] size-5 text-black"})})]}),"case"===e.type&&(0,t.jsxs)("div",{className:"flex gap-4 items-center justify-between w-full mt-2",children:[(0,t.jsx)("button",{onClick:()=>z(e=>({...e,data:{...e.data,amount:Math.max(1,parseInt(e.data.amount)-1).toString()}})),className:"flex bg-[#FDFDFD] ring-1 ring-[#3A3A3A] p-3 rounded-2xl hover:brightness-125 cursor-pointer f-smooth",children:(0,t.jsx)("span",{className:"icon-[tabler--minus] size-5 text-black"})}),(0,t.jsxs)("p",{className:"font-sf-pro font-semibold text-[var(--theme-text,#171717)] text-[14px]",children:[_.data.amount," шт."]}),(0,t.jsx)("button",{onClick:()=>z(e=>({...e,data:{...e.data,amount:(parseInt(e.data.amount)+1).toString()}})),className:"flex bg-[#FDFDFD] ring-1 ring-[#3A3A3A] p-3 rounded-2xl hover:brightness-125 cursor-pointer f-smooth",children:(0,t.jsx)("span",{className:"icon-[tabler--plus] size-5 text-black"})})]}),"currency"===e.type&&(0,t.jsxs)("div",{className:"flex gap-4 items-center justify-between w-full mt-2",children:[(0,t.jsxs)("div",{className:"flex relative",children:[(0,t.jsx)("input",{onBlur:B,onKeyUp:e=>"enter"===e.key&&B(),value:_.data.sum,onChange:t=>{let a=t.target.value,s=Math.floor(Math.max(e.price,parseInt(a)||e.price)/e.price);z(t=>({...t,data:{...t.data,sum:a,amount:String(s*e.amount)}}))},type:"number",placeholder:"Введите сумму",className:"bg-[var(--theme-input-bg,#0E0E0E)] placeholder:text-[var(--theme-input-placeholder,#414141)] font-sf-pro font-semibold text-[var(--theme-text,#ffffff)] py-4 px-6 rounded-tr-3xl rounded-tl-3xl rounded-br-3xl rounded-bl-3xl text-lg focus:ring-1 f-smooth ring-white/40"}),(0,t.jsx)("p",{className:"absolute right-6 top-4 font-sf-pro font-semibold text-[18px] text-[var(--theme-text,#ffffff)]/50",children:"₽"})]}),(0,t.jsxs)("div",{className:"flex relative",children:[(0,t.jsx)("input",{onBlur:S,onKeyUp:e=>"enter"===e.key&&S(),value:_.data.amount,onChange:t=>{let a=t.target.value,s=Math.ceil(Math.max(1,parseInt(a)||1)/e.amount);z(t=>({...t,data:{...t.data,amount:a,sum:String(s*e.price)}}))},type:"number",placeholder:"Введите количество",className:"bg-[var(--theme-input-bg,#0E0E0E)] placeholder:text-[var(--theme-input-placeholder,#414141)] font-sf-pro font-semibold text-[var(--theme-text,#ffffff)] py-4 px-6 rounded-tr-3xl rounded-tl-3xl rounded-br-3xl rounded-bl-3xl text-lg focus:ring-1 f-smooth ring-white/40"}),(0,t.jsx)("p",{className:"absolute right-6 top-4 font-sf-pro font-semibold text-[18px] text-[var(--theme-text,#ffffff)]/50",children:"шт."})]})]})]}),(0,t.jsx)("div",{className:"w-full h-0.5 rounded-full bg-[var(--theme-divider,#E8E8E8)]"}),(0,t.jsx)("div",{className:"flex flex-col gap-4 w-full",children:(0,t.jsxs)("div",{className:"flex flex-col gap-4",children:[(0,t.jsxs)("div",{className:"grid lg:grid-cols-2 gap-4 items-center",children:[(0,t.jsxs)("button",{onClick:()=>z(e=>({...e,data:{...e.data,payment_method:"tkassa"}})),type:"button",className:(0,r.cn)("flex gap-4 items-center px-6 py-6 rounded-3xl cursor-pointer hover:opacity-80 hover:scale-[98%] f-smooth w-full lg:w-auto","tkassa"===_.data.payment_method?"bg-[var(--theme-payment-selected-bg,#0E0E0E)] text-[var(--accent-color)] ring-1":"bg-[var(--theme-payment-unselected-bg,#5050501A)]"),children:[(0,t.jsx)("img",{src:"/flags/ru.png",className:"size-8"}),(0,t.jsxs)("div",{className:"flex flex-col items-start leading-5",children:[(0,t.jsx)("p",{className:"font-sf-pro font-semibold text-[var(--theme-payment-text,#2F2F2F)] text-[18px]",children:"Российские карты"}),(0,t.jsx)("p",{className:"font-sf-pro font-semibold text-[var(--theme-payment-subtext,#5E5E5E)] text-[14px]",children:"Только Россия"})]})]}),(0,t.jsxs)("button",{onClick:()=>z(e=>({...e,data:{...e.data,payment_method:"clouddonate"}})),type:"button",className:(0,r.cn)("flex gap-4 items-center px-6 py-6 rounded-3xl cursor-pointer hover:opacity-80 hover:scale-[98%] f-smooth w-full lg:w-auto","clouddonate"===_.data.payment_method?"bg-[var(--theme-payment-selected-bg,#0E0E0E)] text-[var(--accent-color)] ring-1":"bg-[var(--theme-payment-unselected-bg,#5050501A)]"),children:[(0,t.jsx)("img",{src:"/flags/eu.png",className:"size-8"}),(0,t.jsxs)("div",{className:"flex flex-col items-start leading-5",children:[(0,t.jsx)("p",{className:"font-sf-pro font-semibold text-[var(--theme-payment-text,#2F2F2F)] text-[18px]",children:"Зарубежные карты"}),(0,t.jsx)("p",{className:"font-sf-pro font-semibold text-[var(--theme-payment-subtext,#5E5E5E)] text-[14px]",children:"Европа и т.д."})]})]}),(0,t.jsxs)("button",{onClick:()=>z(e=>({...e,data:{...e.data,payment_method:"heleket"}})),type:"button",className:(0,r.cn)("lg:col-span-2 flex gap-4 items-center px-6 py-6 rounded-3xl cursor-pointer hover:opacity-80 hover:scale-[98%] f-smooth w-full lg:w-auto","heleket"===_.data.payment_method?"bg-[var(--theme-payment-selected-bg,#0E0E0E)] text-[var(--accent-color)] ring-1":"bg-[var(--theme-payment-unselected-bg,#5050501A)]"),children:[(0,t.jsx)("img",{src:"/usdt.svg",className:"size-8"}),(0,t.jsxs)("div",{className:"flex flex-col items-start leading-5",children:[(0,t.jsx)("p",{className:"font-sf-pro font-semibold text-[var(--theme-payment-text,#2F2F2F)] text-[18px]",children:"Криптовалюта"}),(0,t.jsx)("p",{className:"font-sf-pro font-semibold text-[var(--theme-payment-subtext,#5E5E5E)] text-[14px]",children:"USDT, LTC и прочее"})]})]})]}),(0,t.jsx)("div",{className:"w-full h-0.5 rounded-full bg-[#E8E8E8] my-3"}),(0,t.jsxs)("div",{className:"flex flex-col gap-2",children:[(0,t.jsx)("p",{className:"font-sf-pro font-medium text-[var(--theme-muted-text,#5B5959)] text-left text-2xl",children:"Итого к оплате"}),(0,t.jsxs)("div",{className:"grid lg:grid-cols-2 gap-3",children:[(0,t.jsx)("div",{className:"flex gap-3 items-center bg-[var(--theme-price-box-bg,#ffffff)] px-6 py-4 rounded-3xl f-smooth w-full lg:w-auto justify-center mt-2",children:(0,t.jsxs)("p",{className:"font-sf-pro font-semibold text-[var(--theme-text,#000000)] text-[18px] text-center",children:[Number(Number(I+L.toNumber()).toFixed(2)).toLocaleString(),"₽"]})}),(0,t.jsx)("button",{onClick:M,disabled:_.state.loading||!_.state.accepted,className:(0,r.cn)("flex gap-3 items-center bg-[var(--accent-color)] px-6 py-4 rounded-3xl f-smooth w-full lg:w-auto justify-center mt-2",{"opacity-60 cursor-not-allowed":_.state.loading||!_.state.accepted,"hover:opacity-80 cursor-pointer":!_.state.loading&&_.state.accepted}),children:(0,t.jsx)("p",{className:"font-sf-pro font-semibold text-white text-[18px] text-center",children:"Оплатить"})})]})]}),(0,t.jsxs)("p",{className:"font-sf-pro font-medium text-[var(--theme-muted-text,#8D8D8D)] text-[12px] text-center",children:['Нажимая кнопку "Оплатить" вы автоматически соглашетесь с условиями ',(0,t.jsx)("br",{}),(0,t.jsx)("a",{href:"https://mydonate.io/agreement",target:"_blank",className:"underline hover:brightness-125 f-smooth text-[var(--accent-color)]",children:"пользовательского соглашения"}),",",(0,t.jsx)("a",{href:"https://mydonate.io/agency",target:"_blank",className:"underline hover:brightness-125 f-smooth text-[var(--accent-color)]",children:"агентского договора"}),", и"," ",(0,t.jsx)("a",{href:"https://mydonate.io/donation-offer",target:"_blank",className:"underline hover:brightness-125 f-smooth text-[var(--accent-color)]",children:"договора пожертвования"})]})]})})]})]})})]})]})};e.s(["ProductCard",0,k],88691),e.s(["CollectionCard",0,({collection:e,shop:a,selectedServer:l,hideBuyButton:o,massSales:n,open:i,onOpenChange:c,onProductBuy:d})=>{let[m,x]=(0,s.useState)(!1),h=void 0!==i,u=h?c??(()=>{}):x;function g(e){let t=n.find(t=>t.products.some(t=>t.id===e.id));return!t||t.starts_at&&new Date(t.starts_at)>new Date||t.expires_at&&new Date(t.expires_at)<new Date?null:t}let b=e=>{let t=g(e),a=e.price;return t?a-a*(t.discount_percent/100):a},v=(0,s.useMemo)(()=>{let t=e.products.map(e=>b(e));return t.length?Math.min(...t):0},[e.products,b]),j=(0,s.useMemo)(()=>{let t=e.products.map(e=>e.price);return t.length?Math.min(...t):0},[e.products]),N=(0,s.useMemo)(()=>{let t=null;for(let a of e.products){let e=g(a);e&&(!t||e.discount_percent>t.discount)&&(t={discount:e.discount_percent,name:e.name})}return t},[e.products,g]),y=N?.discount??0,w=N?.name??"";return(0,t.jsxs)(f.Dialog,{open:h?i:m,onOpenChange:u,children:[(0,t.jsxs)("div",{className:"font-sf-pro flex flex-col bg-[var(--theme-card-bg,#EFEFEF)] p-5 ring-1 ring-[var(--theme-card-ring,#DEDEDE)] rounded-3xl overflow-hidden",children:[(0,t.jsxs)("div",{className:"relative h-56 w-full",children:[e.image?(0,t.jsx)("img",{src:`/api-backend/static/shops/${e.shop_id}/collections/${e.image}`,className:"h-full w-full object-cover rounded-3xl",alt:e.name}):(0,t.jsx)("div",{className:"flex h-full w-full items-center justify-center rounded-3xl bg-[var(--theme-input-bg,#FDFDFD)]",children:(0,t.jsx)("span",{className:"icon-[tabler--photo-off] size-8 text-[var(--theme-text,#000000)]/40"})}),y?(0,t.jsx)("div",{className:"absolute left-4 top-4 flex items-center gap-2 rounded-full bg-[var(--theme-active-bg,#1E1E1E)]/80 px-3 py-1 text-[var(--theme-active-text,#ffffff)] backdrop-blur",children:(0,t.jsxs)("span",{className:(0,r.cn)("text-[12px] font-semibold",p.unbounded.className),children:["-",y,"%"]})}):null,w?(0,t.jsxs)("div",{className:"absolute right-4 top-4 flex max-w-[120px] items-center gap-1.5 rounded-full bg-[var(--theme-price-box-bg,#ffffff)] px-3 py-1 text-[var(--theme-text,#000000)] shadow-sm",children:[(0,t.jsx)("span",{className:"icon-[tabler--flame] size-3.5 text-[var(--accent-color)] flex-shrink-0"}),(0,t.jsx)("span",{className:(0,r.cn)("text-[12px] font-semibold uppercase tracking-wide text-center leading-tight whitespace-normal break-words",p.unbounded.className),children:w})]}):null]}),(0,t.jsxs)("div",{className:"flex flex-col gap-2 items-start text-left mt-4",children:[(0,t.jsxs)("div",{className:"flex flex-col",children:[(0,t.jsx)("p",{className:"font-extrabold text-[var(--theme-text,#000000)] text-2xl",children:e.name}),(0,t.jsxs)("p",{className:"font-medium text-[var(--theme-muted-text,#323232)] text-[15px]",children:[e.products.length," предмета"]})]}),(0,t.jsxs)("div",{className:"flex bg-[var(--theme-price-box-bg,#ffffff)] w-full rounded-full items-center justify-between mt-auto",children:[(0,t.jsx)("div",{className:"flex gap-3 items-center text-center justify-center mx-3",children:y?(0,t.jsxs)("div",{className:"flex flex-col leading-2 items-center",children:[(0,t.jsxs)("p",{className:"font-sf-pro font-extrabold line-through text-[var(--theme-sale-price,#000000)]/50 text-[12px]",children:["от ",j.toLocaleString(),"₽"]}),(0,t.jsxs)("p",{className:"font-sf-pro font-semibold text-[var(--theme-text,#222222)] text-lg",children:["от ",v.toLocaleString(),"₽"]})]}):(0,t.jsxs)("p",{className:"font-sf-pro font-semibold text-[var(--theme-text,#222222)] text-lg",children:["от ",v.toLocaleString(),"₽"]})}),!o&&(0,t.jsx)(f.DialogTrigger,{asChild:!0,children:(0,t.jsx)("button",{className:"bg-[var(--accent-color)] flex py-2.5 px-5 rounded-full hover:opacity-90 ml-0 m-1 cursor-pointer flex-1 items-center text-center justify-center",children:(0,t.jsx)("p",{className:"font-sf-pro font-semibold text-[18px] text-white",children:"Купить"})})})]})]})]}),(0,t.jsxs)(f.DialogContent,{showCloseButton:!1,className:"m-auto grid w-[90%] !max-w-5xl my-8 lg:my-0 rounded-2xl bg-[var(--theme-card-bg,#EFEFEF)] p-8 text-center lg:p-10 max-h-[90vh] overflow-y-auto",children:[(0,t.jsxs)("div",{className:"flex justify-between items-center",children:[(0,t.jsx)(f.DialogTitle,{className:"font-sf-pro font-extrabold text-[var(--theme-text,#000000)] text-xl lg:text-2xl",children:e.name}),(0,t.jsx)(f.DialogClose,{asChild:!0,children:(0,t.jsx)("button",{className:"flex p-2 rounded-full ring-1 hover:bg-[var(--theme-active-bg,#1E1E1E)] hover:ring-0 text-[var(--theme-muted-text,#474747)] ring-[var(--theme-muted-text,#474747)] cursor-pointer hover:text-[var(--theme-active-text,#ffffff)] f-smooth",children:(0,t.jsx)("span",{className:"icon-[tabler--x] size-4 lg:size-5"})})})]}),(0,t.jsx)("div",{className:"mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8",children:[...e.products].sort((e,t)=>e.position-t.position).map(e=>(0,t.jsx)(k,{product:e,shop:a,massSales:n,selectedServer:l,onBuyClick:d?e=>{d(e),u(!1)}:void 0},e.id))})]})]})}],90370)}]);
